@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83DE0D013F6B09FC1CA51CBD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA49800454ECB26F3756E46B /* libPods.a */; };
+		CFA75CF61C80420200A94029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75CF51C80420200A94029 /* main.m */; };
+		CFA75CF91C80420200A94029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75CF81C80420200A94029 /* AppDelegate.m */; };
+		CFA75CFF1C80420200A94029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA75CFD1C80420200A94029 /* Main.storyboard */; };
+		CFA75D011C80420200A94029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA75D001C80420200A94029 /* Assets.xcassets */; };
+		CFA75D041C80420200A94029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA75D021C80420200A94029 /* LaunchScreen.storyboard */; };
+		CFA75D0F1C80420200A94029 /* TLDraggingCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D0E1C80420200A94029 /* TLDraggingCardTests.m */; };
+		CFA75D1A1C80420300A94029 /* TLDraggingCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D191C80420300A94029 /* TLDraggingCardUITests.m */; };
+		CFA75D291C80427A00A94029 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D281C80427A00A94029 /* CardViewController.m */; };
+		CFA75D2F1C8042AB00A94029 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D2E1C8042AB00A94029 /* CardCell.m */; };
+		CFA75D321C8042CD00A94029 /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D311C8042CD00A94029 /* StackLayout.m */; };
+		CFEAA0B01C857B7F0006B8D5 /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA75D311C8042CD00A94029 /* StackLayout.m */; };
+		CFEAA0B91C86C94B0006B8D5 /* sa4.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEAA0B41C86C94B0006B8D5 /* sa4.jpg.png */; };
+		CFEAA0BA1C86C94B0006B8D5 /* sa2.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEAA0B51C86C94B0006B8D5 /* sa2.jpg.png */; };
+		CFEAA0BB1C86C94B0006B8D5 /* sa0.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEAA0B61C86C94B0006B8D5 /* sa0.jpg.png */; };
+		CFEAA0BC1C86C94B0006B8D5 /* sa1.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEAA0B71C86C94B0006B8D5 /* sa1.jpg.png */; };
+		CFEAA0BD1C86C94B0006B8D5 /* sa3.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEAA0B81C86C94B0006B8D5 /* sa3.jpg.png */; };
+		CFEAA0C01C86CAB10006B8D5 /* CollectionViewBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEAA0BF1C86CAB10006B8D5 /* CollectionViewBackGroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA75D0B1C80420200A94029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA75CE91C80420200A94029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA75CF01C80420200A94029;
+			remoteInfo = TLDraggingCard;
+		};
+		CFA75D161C80420200A94029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA75CE91C80420200A94029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA75CF01C80420200A94029;
+			remoteInfo = TLDraggingCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24171203EEDEC0D127E3D23D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		616FC41C7E1ED859A662DA21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CFA75CF11C80420200A94029 /* TLDraggingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLDraggingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA75CF51C80420200A94029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFA75CF71C80420200A94029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFA75CF81C80420200A94029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFA75CFE1C80420200A94029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA75D001C80420200A94029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA75D031C80420200A94029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA75D051C80420200A94029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA75D0A1C80420200A94029 /* TLDraggingCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLDraggingCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA75D0E1C80420200A94029 /* TLDraggingCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDraggingCardTests.m; sourceTree = "<group>"; };
+		CFA75D101C80420200A94029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA75D151C80420200A94029 /* TLDraggingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLDraggingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA75D191C80420300A94029 /* TLDraggingCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDraggingCardUITests.m; sourceTree = "<group>"; };
+		CFA75D1B1C80420300A94029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA75D271C80427A00A94029 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		CFA75D281C80427A00A94029 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		CFA75D2D1C8042AB00A94029 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		CFA75D2E1C8042AB00A94029 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		CFA75D301C8042CD00A94029 /* StackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackLayout.h; sourceTree = "<group>"; };
+		CFA75D311C8042CD00A94029 /* StackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackLayout.m; sourceTree = "<group>"; };
+		CFEAA0B41C86C94B0006B8D5 /* sa4.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa4.jpg.png; sourceTree = "<group>"; };
+		CFEAA0B51C86C94B0006B8D5 /* sa2.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa2.jpg.png; sourceTree = "<group>"; };
+		CFEAA0B61C86C94B0006B8D5 /* sa0.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa0.jpg.png; sourceTree = "<group>"; };
+		CFEAA0B71C86C94B0006B8D5 /* sa1.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa1.jpg.png; sourceTree = "<group>"; };
+		CFEAA0B81C86C94B0006B8D5 /* sa3.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa3.jpg.png; sourceTree = "<group>"; };
+		CFEAA0BE1C86CAB10006B8D5 /* CollectionViewBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewBackGroundView.h; path = Images/CollectionViewBackGroundView.h; sourceTree = "<group>"; };
+		CFEAA0BF1C86CAB10006B8D5 /* CollectionViewBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewBackGroundView.m; path = Images/CollectionViewBackGroundView.m; sourceTree = "<group>"; };
+		EA49800454ECB26F3756E46B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA75CEE1C80420200A94029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DE0D013F6B09FC1CA51CBD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D071C80420200A94029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D121C80420200A94029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500D091E7CAE9C904E277696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA49800454ECB26F3756E46B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E6E1CAE4023D6DA4FC2DE7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24171203EEDEC0D127E3D23D /* Pods.debug.xcconfig */,
+				616FC41C7E1ED859A662DA21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFA75CE81C80420200A94029 = {
+			isa = PBXGroup;
+			children = (
+				CFA75CF31C80420200A94029 /* TLDraggingCard */,
+				CFA75D0D1C80420200A94029 /* TLDraggingCardTests */,
+				CFA75D181C80420300A94029 /* TLDraggingCardUITests */,
+				CFA75CF21C80420200A94029 /* Products */,
+				8E6E1CAE4023D6DA4FC2DE7B /* Pods */,
+				500D091E7CAE9C904E277696 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA75CF21C80420200A94029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA75CF11C80420200A94029 /* TLDraggingCard.app */,
+				CFA75D0A1C80420200A94029 /* TLDraggingCardTests.xctest */,
+				CFA75D151C80420200A94029 /* TLDraggingCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA75CF31C80420200A94029 /* TLDraggingCard */ = {
+			isa = PBXGroup;
+			children = (
+				CFA75D331C8051B800A94029 /* Images */,
+				CFEAA0BE1C86CAB10006B8D5 /* CollectionViewBackGroundView.h */,
+				CFEAA0BF1C86CAB10006B8D5 /* CollectionViewBackGroundView.m */,
+				CFA75D301C8042CD00A94029 /* StackLayout.h */,
+				CFA75D311C8042CD00A94029 /* StackLayout.m */,
+				CFA75D2D1C8042AB00A94029 /* CardCell.h */,
+				CFA75D2E1C8042AB00A94029 /* CardCell.m */,
+				CFA75D271C80427A00A94029 /* CardViewController.h */,
+				CFA75D281C80427A00A94029 /* CardViewController.m */,
+				CFA75CF71C80420200A94029 /* AppDelegate.h */,
+				CFA75CF81C80420200A94029 /* AppDelegate.m */,
+				CFA75CFD1C80420200A94029 /* Main.storyboard */,
+				CFA75D001C80420200A94029 /* Assets.xcassets */,
+				CFA75D021C80420200A94029 /* LaunchScreen.storyboard */,
+				CFA75D051C80420200A94029 /* Info.plist */,
+				CFA75CF41C80420200A94029 /* Supporting Files */,
+			);
+			path = TLDraggingCard;
+			sourceTree = "<group>";
+		};
+		CFA75CF41C80420200A94029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA75CF51C80420200A94029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFA75D0D1C80420200A94029 /* TLDraggingCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA75D0E1C80420200A94029 /* TLDraggingCardTests.m */,
+				CFA75D101C80420200A94029 /* Info.plist */,
+			);
+			path = TLDraggingCardTests;
+			sourceTree = "<group>";
+		};
+		CFA75D181C80420300A94029 /* TLDraggingCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA75D191C80420300A94029 /* TLDraggingCardUITests.m */,
+				CFA75D1B1C80420300A94029 /* Info.plist */,
+			);
+			path = TLDraggingCardUITests;
+			sourceTree = "<group>";
+		};
+		CFA75D331C8051B800A94029 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAA0B41C86C94B0006B8D5 /* sa4.jpg.png */,
+				CFEAA0B51C86C94B0006B8D5 /* sa2.jpg.png */,
+				CFEAA0B61C86C94B0006B8D5 /* sa0.jpg.png */,
+				CFEAA0B71C86C94B0006B8D5 /* sa1.jpg.png */,
+				CFEAA0B81C86C94B0006B8D5 /* sa3.jpg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA75CF01C80420200A94029 /* TLDraggingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA75D1E1C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCard" */;
+			buildPhases = (
+				8DAE243A9F3EDCA311046926 /* Check Pods Manifest.lock */,
+				CFA75CED1C80420200A94029 /* Sources */,
+				CFA75CEE1C80420200A94029 /* Frameworks */,
+				CFA75CEF1C80420200A94029 /* Resources */,
+				8ED1B6BD8F9B2D565D1A0D33 /* Embed Pods Frameworks */,
+				D481B0FD5D20F1EB94C1588F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLDraggingCard;
+			productName = TLDraggingCard;
+			productReference = CFA75CF11C80420200A94029 /* TLDraggingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA75D091C80420200A94029 /* TLDraggingCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA75D211C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCardTests" */;
+			buildPhases = (
+				CFA75D061C80420200A94029 /* Sources */,
+				CFA75D071C80420200A94029 /* Frameworks */,
+				CFA75D081C80420200A94029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA75D0C1C80420200A94029 /* PBXTargetDependency */,
+			);
+			name = TLDraggingCardTests;
+			productName = TLDraggingCardTests;
+			productReference = CFA75D0A1C80420200A94029 /* TLDraggingCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA75D141C80420200A94029 /* TLDraggingCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA75D241C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCardUITests" */;
+			buildPhases = (
+				CFA75D111C80420200A94029 /* Sources */,
+				CFA75D121C80420200A94029 /* Frameworks */,
+				CFA75D131C80420200A94029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA75D171C80420200A94029 /* PBXTargetDependency */,
+			);
+			name = TLDraggingCardUITests;
+			productName = TLDraggingCardUITests;
+			productReference = CFA75D151C80420200A94029 /* TLDraggingCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA75CE91C80420200A94029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = pacino;
+				TargetAttributes = {
+					CFA75CF01C80420200A94029 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CFA75D091C80420200A94029 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CFA75CF01C80420200A94029;
+					};
+					CFA75D141C80420200A94029 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CFA75CF01C80420200A94029;
+					};
+				};
+			};
+			buildConfigurationList = CFA75CEC1C80420200A94029 /* Build configuration list for PBXProject "TLDraggingCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA75CE81C80420200A94029;
+			productRefGroup = CFA75CF21C80420200A94029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA75CF01C80420200A94029 /* TLDraggingCard */,
+				CFA75D091C80420200A94029 /* TLDraggingCardTests */,
+				CFA75D141C80420200A94029 /* TLDraggingCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA75CEF1C80420200A94029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAA0BC1C86C94B0006B8D5 /* sa1.jpg.png in Resources */,
+				CFA75D041C80420200A94029 /* LaunchScreen.storyboard in Resources */,
+				CFEAA0B91C86C94B0006B8D5 /* sa4.jpg.png in Resources */,
+				CFA75D011C80420200A94029 /* Assets.xcassets in Resources */,
+				CFEAA0BD1C86C94B0006B8D5 /* sa3.jpg.png in Resources */,
+				CFEAA0BA1C86C94B0006B8D5 /* sa2.jpg.png in Resources */,
+				CFA75CFF1C80420200A94029 /* Main.storyboard in Resources */,
+				CFEAA0BB1C86C94B0006B8D5 /* sa0.jpg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D081C80420200A94029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D131C80420200A94029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DAE243A9F3EDCA311046926 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED1B6BD8F9B2D565D1A0D33 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D481B0FD5D20F1EB94C1588F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA75CED1C80420200A94029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA75CF91C80420200A94029 /* AppDelegate.m in Sources */,
+				CFA75CF61C80420200A94029 /* main.m in Sources */,
+				CFA75D291C80427A00A94029 /* CardViewController.m in Sources */,
+				CFEAA0C01C86CAB10006B8D5 /* CollectionViewBackGroundView.m in Sources */,
+				CFA75D2F1C8042AB00A94029 /* CardCell.m in Sources */,
+				CFA75D321C8042CD00A94029 /* StackLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D061C80420200A94029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAA0B01C857B7F0006B8D5 /* StackLayout.m in Sources */,
+				CFA75D0F1C80420200A94029 /* TLDraggingCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA75D111C80420200A94029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA75D1A1C80420300A94029 /* TLDraggingCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA75D0C1C80420200A94029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA75CF01C80420200A94029 /* TLDraggingCard */;
+			targetProxy = CFA75D0B1C80420200A94029 /* PBXContainerItemProxy */;
+		};
+		CFA75D171C80420200A94029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA75CF01C80420200A94029 /* TLDraggingCard */;
+			targetProxy = CFA75D161C80420200A94029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA75CFD1C80420200A94029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA75CFE1C80420200A94029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA75D021C80420200A94029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA75D031C80420200A94029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA75D1C1C80420300A94029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA75D1D1C80420300A94029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA75D1F1C80420300A94029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24171203EEDEC0D127E3D23D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLDraggingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA75D201C80420300A94029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616FC41C7E1ED859A662DA21 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLDraggingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFA75D221C80420300A94029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLDraggingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLDraggingCard.app/TLDraggingCard";
+			};
+			name = Debug;
+		};
+		CFA75D231C80420300A94029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLDraggingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLDraggingCard.app/TLDraggingCard";
+			};
+			name = Release;
+		};
+		CFA75D251C80420300A94029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLDraggingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLDraggingCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFA75D261C80420300A94029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLDraggingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingchundao.TLDraggingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLDraggingCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA75CEC1C80420200A94029 /* Build configuration list for PBXProject "TLDraggingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA75D1C1C80420300A94029 /* Debug */,
+				CFA75D1D1C80420300A94029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA75D1E1C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA75D1F1C80420300A94029 /* Debug */,
+				CFA75D201C80420300A94029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA75D211C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA75D221C80420300A94029 /* Debug */,
+				CFA75D231C80420300A94029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA75D241C80420300A94029 /* Build configuration list for PBXNativeTarget "TLDraggingCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA75D251C80420300A94029 /* Debug */,
+				CFA75D261C80420300A94029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA75CE91C80420200A94029 /* Project object */;
+}

@@ -1,0 +1,6 @@
+platform :ios, "7.0"
+
+pod 'ReactiveCocoa', '2.4.7'
+pod 'FMDB', '~> 2.5'
+pod 'Masonry', '~> 0.6.1'
+pod 'Reveal-iOS-SDK', :configurations => ['Debug']

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G0a-rE-3b4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="n3L-Wl-MM7">
+            <objects>
+                <navigationController id="G0a-rE-3b4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Doj-mx-Lkn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SHd-ft-FJD" kind="relationship" relationship="rootViewController" id="ThH-v2-ej7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hf-iO-Yfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1113" y="296"/>
+        </scene>
+        <!--CardView-->
+        <scene sceneID="agV-dr-uHt">
+            <objects>
+                <collectionViewController id="SHd-ft-FJD" customClass="CardViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" dataMode="prototypes" id="jk1-lI-gta">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewLayout key="collectionViewLayout" id="cRe-XM-Ic2" customClass="StackLayout"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="8qA-Ii-r21" customClass="CardCell">
+                                <rect key="frame" x="148" y="64" width="305" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="305" height="281"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DhB-vO-18w">
+                                            <rect key="frame" x="0.0" y="0.0" width="305" height="281"/>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="DhB-vO-18w" secondAttribute="bottom" id="Xi7-Ke-lQb"/>
+                                    <constraint firstItem="DhB-vO-18w" firstAttribute="leading" secondItem="8qA-Ii-r21" secondAttribute="leading" id="cg0-aS-4oE"/>
+                                    <constraint firstItem="DhB-vO-18w" firstAttribute="top" secondItem="8qA-Ii-r21" secondAttribute="top" id="kNc-MC-6VG"/>
+                                    <constraint firstAttribute="trailing" secondItem="DhB-vO-18w" secondAttribute="trailing" id="l2H-Jk-WHv"/>
+                                </constraints>
+                                <size key="customSize" width="305" height="281"/>
+                                <connections>
+                                    <outlet property="imageView" destination="DhB-vO-18w" id="Abs-tb-BTw"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="SHd-ft-FJD" id="h4j-Oy-IPf"/>
+                            <outlet property="delegate" destination="SHd-ft-FJD" id="9Qq-Pc-x85"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="CardView" id="i6z-qr-wkN"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roE-vh-YPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="283"/>
+        </scene>
+    </scenes>
+</document>
